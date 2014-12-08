@@ -1,0 +1,1 @@
+bin/hadoop jar ./share/hadoop/tools/lib/hadoop-streaming-2.5.0.jar  -input input  -output myOutputDir -mapper /bin/cat -reducer /usr/bin/wc
